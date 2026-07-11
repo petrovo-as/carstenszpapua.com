@@ -1,0 +1,468 @@
+/* A CSS Framework by Mike Stenhouse of Content with Style, adapted to CMSMS by Daniel Westergren */
+
+/* clearing */
+	.stretch,
+	.clear {
+		clear:both; 
+		height:1px; 
+		margin:0; 
+		padding:0; 
+		font-size: 15px;
+		line-height: 1px;
+	}
+	.clearfix:after {
+		content: "."; 
+		display: block; 
+		height: 0; 
+		clear: both; 
+		visibility: hidden;
+	}
+	* html>body .clearfix {
+		display: inline-block; 
+		width: 100%;
+	}
+	
+	* html .clearfix {
+		/* Hides from IE-mac \*/
+		height: 1%;
+		/* End hide from IE-mac */
+	}
+
+/* end clearing */
+
+
+/* replace */
+	.replace {
+		display:block;
+		
+		background-repeat: no-repeat;
+		background-position: left top;
+		background-color:transparent;
+	}
+	/* tidy these up */
+	.replace * {
+		text-indent: -10000px;
+		display:block;
+		
+		background-repeat: no-repeat;
+		background-position: left top;
+		background-color:transparent;
+	}
+	.replace a {
+		text-indent:0;
+	}
+	.replace a span {
+		text-indent:-10000px;
+	}
+/* end replace */
+
+
+/* accessibility */
+     span.accesskey {
+     	text-decoration:none;
+     }
+     .accessibility {
+     	position: absolute;
+     	top: -999em;
+     	left: -999em;
+     }
+dfn {
+  position: absolute;
+  left: -1000px;
+  top: -1000px;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  display: inline;
+}
+/* end accessibility */
+/* Stylesheet: Tools Modified On 2006-01-26 17:40:01 */
+/* A CSS Framework by Mike Stenhouse of Content with Style */
+
+/* TYPOGRAPHY */
+body {
+	text-align: left;
+  font: 70% Tahoma,sans-serif;
+  line-height: 1.3em;
+}
+div {
+	font-size: 1em;
+}
+img {
+	border: 0;
+}
+
+/* LINKS */
+a,
+a:link 
+a:active, a:visited {
+	text-decoration: underline;
+}
+
+div#footer a, 	
+div#footer a:link 
+div#footer a:active, div#footer a:visited {
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+}
+/* END LINKS */
+	
+/* HEADINGS */
+h1,h2,h3,h4,h5 {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+h1 {
+	font-size: 1.8em;
+	/*line-height: 1em;*/
+}
+h2 {
+	font-size: 1.5em;
+  line-height: 1.5em;
+	margin: 0 0 0.5em 0;
+	padding: 0;
+}
+h3 {
+	font-size: 1.3em;
+	line-height: 1.3em;
+	margin: 0 0 0.5em 0;
+	padding:0;
+}
+h4 {
+	font-size: 1.2em;
+	line-height: 1.3em;
+	margin: 0 0 0.25em 0;
+	padding: 0;
+}
+h5 {
+	font-size: 1.1em;
+	line-height: 1.3em;
+	margin: 0 0 0.25em 0;
+	padding: 0;
+}
+h6 {
+	font-size: 1em;
+	line-height: 1.3em;
+	margin: 0 0 0.25em 0;
+	padding: 0;
+}
+/* END HEADINGS */
+
+/* TEXT */
+p {
+	font-size: 1em;
+	margin: 0 0 1.5em 0;
+	padding: 0;
+	line-height:1.4em;
+}
+blockquote {
+  font: 9pt/17pt Georgia,Times, serif;
+	border-left: 10px solid #ddd;
+	margin-left: 10px;
+  padding-left: .1em;
+}
+pre {
+	font-family: monospace;
+	font-size: 1.0em;
+}
+strong, b {
+	font-weight: bold;
+}
+em, i {
+	font-style:italic;
+}
+code {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em;
+  white-space: pre;
+}
+/* END TEXT */
+	
+/* LISTS */
+#main ul {
+  line-height:1.4em;
+	margin: 0 0 1.5em 0;
+	padding: 0;
+}
+#main ul li {
+	margin: 0 0 0.25em 30px;
+	padding: 0;
+}
+ol {
+	font-size: 1.0em;
+	line-height: 1.4em;
+	margin: 0 0 1.5em 0;
+	padding: 0;
+}
+ol li {
+	font-size: 1.0em;
+	margin: 0 0 0.25em 30px;
+	padding: 0;
+}
+dl {
+	margin: 0 0 1.5em 0;
+	padding: 0;
+	line-height: 1.4em;
+}
+dl dt {
+	font-weight: bold;
+	margin: 0.25em 0 0.25em 0;
+	padding: 0;
+}
+dl dd {
+	margin: 0 0 0 30px;
+	padding: 0;
+}
+/* END LISTS */
+	
+	
+	
+hr {
+	display: none;
+}
+
+div.hr {
+	height: 1px;
+	margin: 1em 10px;
+	border-bottom: 1px dotted black;
+}
+
+.odsaditnad {
+  margin-top:3em;
+}
+	
+/* END TYPOGRAPHY */	
+/* Stylesheet: Typography Modified On 2007-06-26 18:39:39 */
+body {
+  margin: 0 auto;
+  padding: 1em 0 1em 0em;
+  text-align: center;
+  background:  url(../images/bg.gif);
+  color: #333;
+}
+
+div#pagewrapper {
+  margin: 0 auto;
+  width: 1000px;
+  padding: 0;
+  text-align: left;
+}
+
+#container {
+  position: relative;
+  margin: 0;
+}
+
+div#header {
+  margin: 0;
+  padding: 0;
+  height: 175px;
+  text-align: left;
+  background:  url(../images/header.gif) no-repeat top; 
+}
+
+div#content {
+  position: relative;
+  margin: 1.5em auto 2em 0;
+  padding: 0;
+  text-align: left;
+}
+
+div#main {
+  float: right;
+  width: 782px;
+  margin: 0px;
+  
+  background: url(../images/page-top.gif) no-repeat top;
+}
+
+div#main-content {
+  padding: 2%;
+  padding-top: 0px;
+  margin-top: 30px;
+  background-color: white;
+}
+
+div#footer {
+  height: 52px;
+  margin-top: 1em;
+  color: #fff;
+  background:  url(../images/footer-bg.gif) no-repeat top;
+}
+
+div#footer p {
+  font-size: 0.8em;
+  margin: 0;
+  padding: 7px 15px;
+  text-align: center;
+}
+
+div.breadcrumbs {
+  padding: 1em 0;
+  text-align: left;
+  font-size: 90%;
+  margin: 0 1em;
+  border-bottom: 1px dotted #000;
+}
+
+div.flags {
+  float: right;
+  width: 18px;
+  padding: 1em 0;
+  text-align: right;
+  margin: 0 1em 0 0;
+}
+
+div.left49 {
+  float: left;
+  width: 20%;
+}
+
+div.right49 {
+  text-align: right;
+}
+
+
+/* Links */		
+a,
+a:link 
+a:active, a:visited {
+  color: #72141a;
+}
+a:hover {
+  background-color: #daa411;
+}
+
+/* Headings */
+h1 {
+  color: #daa411;
+}
+h2, h3, h4, h5, h6 {
+  color: #a4b0c8;
+}
+
+h3 strong {
+ color:#333333;
+ font-size: 80%;
+}
+/* Stylesheet: Layout INSiGHT Modified On 2014-10-14 15:08:01 */
+div.imageleft, div.imageright {width: 315px; margin: 0;}
+div.imageleft img {margin-right: 5px;}
+div.imageright img {margin-left: 5px;}
+
+div.imageleft {float: left;}
+div.imageright {float: right;}
+
+div.imageleft p, div.imageright p {color: #082A9B; font: bold .9em Verdana, Arial, sans-serif; }
+div.imageright p {padding-left: 7px;}
+div.imageleft p {padding-right: 7px;}
+
+div.imageleft img, div.imageright img, #main img {border: 1px solid #999; padding: 2px;}
+
+.odsadit, div.right49 {clear: both;}
+
+div.imageleft p em, div.imageright p em {display: block; color: #999; font-family: Times, serif; font-weight: normal;}
+
+.noborder_img {border:0; padding:0;}
+
+.vpravo5px img {margin-right: 5px;}
+.vlevo5px img {margin-left: 5px;}
+.vpravo10px img {margin-right: 10px;}
+.vlevo10px img {margin-left: 10px;}
+
+#banners {text-align: center; margin-top:1em;}
+#banners span {display:block; margin: 7px;}
+
+
+textarea {
+ border: 1px solid #222;
+ width: 600px;
+ height: 65px;
+ background-color: #ccc;
+ padding: .5em;
+ margin-bottom: 1.5em;
+}
+/* Stylesheet: Carstensz INSiGHT Modified On 2008-01-10 12:39:45 */
+#menu_vert, #menu_vert ul {
+  margin: 0;
+  padding: 0;
+}
+
+#menu_vert {
+  background:  url(../images/menu-top.gif) no-repeat top;
+  padding-top: 24px;
+  float: left;
+  width: 204px;
+  margin-left: 0;
+}
+
+#menu_vert ul {
+  width: 100%; /* Width of Menu Items */
+  border-top: 1px solid #3f5671;
+  background:  url(../images/menu-bottom.gif) no-repeat bottom;
+  padding-bottom: 24px;
+  border: 0px;
+}
+#menu_vert li {
+  list-style: none;
+  background:  url(../images/button-bg.png) no-repeat top; 
+}
+#menu_vert li a:hover {
+  background:  url(../images/button-bg-hover.png) no-repeat top; 
+}
+#menu_vert li a {
+  display: block;
+  text-decoration: none;
+  padding: 4px 5px 4px 10px;
+  border-top: 1px solid #fff;
+  color: #fff;
+}
+#menu_vert li a:hover {
+   background-color: transparent;
+}
+
+/* Fix IE. Hide from IE Mac \*/
+* html #menu_vert li { float: left; height: 1%; }
+* html #menu_vert li a { height: 1%; }
+/* End */
+
+.current
+{
+   list-style-type: square;
+   display: inline;
+   background-color: #abb0b6;
+}
+
+#menu_vert li.activeparent {
+   background:  url(../images/button-bg-hover.png) no-repeat top; 
+}
+
+#menu_vert li.currentpage h3 {
+  display: block;
+  text-decoration: none;
+  padding: 5px 5px 5px 10px;
+  color: #72141a;
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+  line-height: 1.3em;
+  letter-spacing: 0px;
+  background:  url(../images/button-bg-hover.png) no-repeat top; 
+}
+
+li.sectionheader {
+  margin: 0;
+  margin-right: -1px;
+}
+li.sectionheader h3 {
+  margin: 0;
+  padding: 1em 10px 0.5em 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #3f5671;
+  z-index: 90;
+}
+
+/* Stylesheet: Nav-Vertical INSiGHT Modified On 2014-10-14 15:08:23 */
